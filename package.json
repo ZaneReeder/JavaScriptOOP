@@ -1,0 +1,27 @@
+{
+  "name": "drones",
+  "version": "1.0.0",
+  "description": "��J\u0000a\u0000v\u0000a\u0000S\u0000c\u0000r\u0000i\u0000p\u0000t\u0000 \u0000O\u0000b\u0000j\u0000e\u0000c\u0000t\u0000 \u0000O\u0000r\u0000i\u0000e\u0000n\u0000t\u0000e\u0000d\u0000 \u0000P\u0000r\u0000o\u0000g\u0000r\u0000a\u0000m\u0000m\u0000i\u0000n\u0000g\u0000 \u0000U\u0000s\u0000i\u0000n\u0000g\u0000 \u0000E\u0000S\u00006\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ZaneReeder/JavaScriptOOP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZaneReeder/JavaScriptOOP/issues"
+  },
+  "homepage": "https://github.com/ZaneReeder/JavaScriptOOP#readme",
+  "dependencies": {
+    "es6-module-loader": "^0.17.11",
+    "traceur": "0.0.111"
+  },
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
