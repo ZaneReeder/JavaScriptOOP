@@ -1,10 +1,10 @@
-//Module 4 Inheritance and Code Org
-import {Vehicle} from './classes/vehicle.js';
-import {Car} from './classes/car.js';
+//Module 6 User Interface Classes
 
-let c = new Car("abc123".toUpperCase());
+import {Button} from './ui/button.js';
+import {Image} from './ui/image.js';
 
-console.log(((c instanceof Car) === (c instanceof Vehicle) === (c instanceof Object)))
-console.log(c.license);
-console.log(c.gpsEnabled);
+let b = new Button('Click Me');
+b.appendToElement($('body'));
 
+let i = new Image('images/22inf.jpg');
+i.appendToElement($('body'));

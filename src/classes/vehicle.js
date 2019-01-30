@@ -1,15 +1,7 @@
 export class Vehicle {
-    constructor(license) {
+    constructor(license, model, latLong) {
         this.license = license;
-        this.gpsEnabled = true;
+        this.model = model;
+        this.latLong = latLong;
     }
-
-    static getCompany() {
-        console.log('Company Name');
-    }
-
-    Start() {
-        console.log("Starting Vehicle........");
-    }
-
 }
